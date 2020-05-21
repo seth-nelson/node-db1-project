@@ -1,4 +1,46 @@
--- Database Queries
+-- Database Queries: Using query builder knex.js
+
+-- BASIC STRUCTURES:
+
+    -- GET * FROM ___ {gets all of the inout values}
+
+    -- SELECT <selection> FROM <table name>;
+
+        -- SELECT <selection1>, <selection2> FROM <table name>
+
+        -- SELECT * FROM Customers
+        -- WHERE CustomerId=3;
+
+        -- SELECT * FROM employees 
+        -- WHERE salary >= 50000
+
+        -- SELECT City, CustomerName, ContactName
+        -- FROM Customers
+        -- WHERE City = 'Berlin' / WHERE City = 'Berlin' AND Country = 'Germany' / WHERE City = 'Berlin' OR Country = 'Germany'
+
+        -- SELECT name, salary, department
+        -- FROM employees
+        -- ORDER BY 3, 2 DESC;
+
+        -- SELECT * FROM employees
+        -- WHERE salary > 50000
+        -- ORDER by last_name;
+
+        -- SELECT * PROM products
+        -- LIMIT 10
+
+        -- SELECT * FROM products
+        -- ORDER BY price desc
+        -- LIMIT 5
+
+    -- INSERT INTO <table name> (<selection>) 
+    -- VALUES (<values>)
+
+    -- UPDATE <table name> SET <field> = <value> WHERE <condition>;
+
+    -- DELETE FROM <table name> WHERE <condition>;
+
+-------------------------------------------------------------
 
 -- Find all customers with postal code 1010
 
